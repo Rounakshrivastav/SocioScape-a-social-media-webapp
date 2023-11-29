@@ -1,0 +1,151 @@
+.posts-wrapper {
+    border-radius: 20px;
+    border: 1px solid blue;
+    margin-top: 1rem;
+    box-shadow: -3px 3px 5px #aaaaaa;
+    width: 315px;
+    padding-left: 7.5px;
+}
+
+.single-post {
+    width: 300px;
+    font-size: 0.9rem;
+    margin-top: 10px;
+    padding-left: 5px;
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.post-header-picture {
+    display: flex;
+    flex-direction: row;
+}
+
+.post-user-pic {
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    cursor: pointer;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+.user-details {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.user-details>span {
+    font-size: 1rem;
+    color: blue;
+    font-weight: bold;
+}
+
+.post-description {
+    margin-left: 10px;
+    color: grey;
+    margin-top: -15px;
+}
+
+.main-post-image {
+    width: 290px;
+    height: 300px;
+    object-fit: contain;
+}
+
+.likes-comments {
+    display: flex;
+    align-items: center;
+}
+
+.like-area {
+    margin-left: 3rem;
+}
+
+.like-area>i {
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.like-area>span {
+    margin-left: 5px;
+}
+
+.comment-section {
+    background-color: #fbeeee;
+    width: 17rem;
+    padding-left: 15px;
+    padding-right: 6px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 10px;
+    margin-top: 7px;
+    margin-left: 10px;
+    position: absolute;
+    z-index: 10;
+}
+
+.visible {
+    display: block;
+    transition: ease-in-out 0.2s;
+}
+
+.invisible {
+    display: none;
+    transition: ease-in-out 0.2s;
+}
+
+.fa-heart {
+    color: red;
+}
+
+.fa-user-plus {
+    position: relative;
+    left: 17rem;
+    bottom: 3rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.comment-area {
+    display: flex;
+}
+
+.comment-input {
+    width: 11rem;
+    height: 100%;
+    padding-left: 10px;
+    border-radius: 8px;
+    border: 1px solid blue;
+    margin-right: 10px;
+}
+
+.comment-btn {
+    width: 6rem;
+    padding-left: 0px;
+    border-radius: 8px;
+    background-color: rgb(86, 86, 215);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.comment-btn:hover {
+    background-color: white;
+    color: blue;
+    transition: ease-in-out 0.2s;
+}
+
+.post-reaction-area{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}

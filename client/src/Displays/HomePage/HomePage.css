@@ -1,0 +1,25 @@
+.home-main{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+@media(max-width: 950px){
+    .right-sider{
+        display: none;
+    }
+}
+
+@media(max-width: 640px){
+    .home-main{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media(max-width: 640px){
+    .profile-sider-div{
+        display: none;
+    }
+}

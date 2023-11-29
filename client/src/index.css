@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+*::-webkit-scrollbar{
+  width: 8px;
+}
+
+*::-webkit-scrollbar-track{
+  background: white;
+}
+
+*::-webkit-scrollbar-thumb{
+  background-color: rgb(98, 98, 237);
+  border-radius: 100px;
+  border: 1px solid white;
+  border-radius: 2px solid white;
+}

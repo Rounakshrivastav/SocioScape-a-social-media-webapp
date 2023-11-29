@@ -1,0 +1,11 @@
+.profile-page-compponent{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.profile-page-compponent>div{
+    margin-left: 1rem;
+}
+

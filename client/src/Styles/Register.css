@@ -1,0 +1,132 @@
+.signup-form-div {
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.register-image {
+    height: 100vh;
+    margin-right: 10%;
+}
+
+.register-image img {
+    width: 180%;
+    margin-left: -25px;
+    height: 100vh;
+    mix-blend-mode: multiply;
+}
+
+.register-second {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome-register {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome-register>p {
+    font-size: 1.2rem;
+    color: rgb(86, 86, 215);
+}
+
+.welcome-register img {
+    height: 8rem;
+    margin-top: -15px;
+    margin-bottom: -15px;
+    mix-blend-mode: multiply;
+}
+
+.register-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.names {
+    display: flex;
+}
+
+.register-form-input {
+    height: 2.5rem;
+    width: 14rem;
+    border-radius: 10px;
+    padding-left: 1rem;
+    border: 2px solid grey;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    color: grey;
+}
+
+.register-form-input:hover {
+    border: 1px solid blue;
+    border-bottom: 2px solid blue;
+    border-top: 2px solid blue;
+}
+
+
+.register-button{
+    height: 2.5rem;
+    width: 10rem;
+    border-radius: 8px;
+    background-color: rgb(86, 86, 215);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-left: -5px;
+}
+
+.register-button:hover{
+    background-color: white;
+    color: blue;
+    border: 2px solid blue;
+    transition: ease-in-out 0.2s;
+}
+
+.photo-uploader{
+    width: 14rem;
+    height: 2.5rem;
+    border: 2px dashed grey;
+    border-radius: 10px;
+    margin-top: 1rem;
+    padding-left: 1.5rem;
+    padding-top: 0.55em;
+    margin-left: -10px;
+}
+
+.photo-uploader:hover{
+    border: 2px dashed blue;
+}
+
+.register-p{
+    margin-left: 0px;
+}
+
+@media(max-width : 916px){
+    .register-image img {
+        display: none;
+    }
+    .register-image{
+        display: none;
+    }
+}
+
+@media(max-width : 500px){
+    .names{
+        flex-direction: column;
+    }
+    .extra{
+        display: flex;
+        flex-direction: column;
+    }
+}

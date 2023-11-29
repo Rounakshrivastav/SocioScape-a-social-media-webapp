@@ -1,0 +1,62 @@
+.post-form{
+    width: 315px;
+    border: 2px solid blue;
+    border-radius: 20px;
+    height: 11rem;
+    box-shadow: -3px 3px 5px #aaaaaa;
+    text-align: center;
+}
+
+.write{
+    display: flex;
+    align-items: center;
+}
+
+.write>img{
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    margin-top: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.write input{
+    width: 13.7rem;
+    height: 50px;
+    margin-top:10px;
+    padding-left: 1rem;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(233, 231, 231);
+    margin-left: 5px;
+}
+
+.input:focus{
+    outline : none
+}
+
+.post-uploader{
+    margin-left: 20px;
+    margin-top: -10px;
+}
+
+.upload-btn>input{
+    height: 2rem;
+    width: 85%;
+    margin-left: 5%;
+    margin-top: 10px;
+    border-radius: 8px;
+    background-color: rgb(86, 86, 215);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.upload-btn>input:hover{
+    background-color: white;
+    color: blue;
+    border: 2px solid blue;
+    transition: ease-in-out 0.2s;
+}
